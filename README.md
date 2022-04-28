@@ -8,3 +8,6 @@ $ dw --path "task/task_*.sh" | xargs -P 12 -L 1 sh
 
 This will watch a directory for new files and pass them to `xargs` as they appear. Under normal circumstances `find` would quit once it had processed all the existing files and the pipeline would collapse. `dw` will just wait until new files are added to the directory
 
+## Two versions!!!
+
+This was originaly written in Ruby, `dw.rb`, but being the language junkie that I am I was looking at V and decided to write it in that to try out V I would rewrite this project. It went well and I am happy with the results
